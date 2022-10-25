@@ -1,3 +1,94 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*-----------------First page-----------------*/
+.home {
+  background-color: #f5f5f5;
+  height: 100vh;
+}
+
+/*-----------------Navigation & Header-----------------*/
+nav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  background-color: #665dab;
+  width: 100%;
+  
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      list-style: none;
+    
+      li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-weight: 400;
+      }
+    }
+}
+
+header {
+
+}
+
+/*-----------------The angle on the first page-----------------*/
+.angle::after {
+  background-color: #6ea67a;
+  clip-path: polygon(100% 100%, 0 100%, 100% 0);
+}
+
+.angle, .angle::after {
+  height: 350px;
+  width: 100%;
+}
+
+.angle::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+}
+
+/*-----------------Second Page-----------------*/
+.experience {
+  background-color: #6ea67a;
+  position: absolute;
+}
+
+/*-----------------Footer-----------------*/
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #665dab;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------BOILERPLATE-----------------*/
+
+
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
