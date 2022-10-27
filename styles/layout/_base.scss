@@ -4,9 +4,11 @@
 }
 
 /*-----------------First page-----------------*/
-.home {
+.homepage {
   background-color: #f5f5f5;
+  position: relative;
   height: 100vh;
+  display: grid;
 }
 
 /*-----------------Navigation & Header-----------------*/
@@ -28,12 +30,16 @@ nav {
         text-decoration: none;
         font-size: 1.4rem;
         font-weight: 400;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
 }
 
-header {
-
+.intro {
+  padding-top: 50px;
 }
 
 /*-----------------The angle on the first page-----------------*/
@@ -53,10 +59,27 @@ header {
   bottom: 0;
 }
 
-/*-----------------Second Page-----------------*/
-.experience {
+/*-----------------Experience & Contact-----------------*/
+main {
   background-color: #6ea67a;
   position: absolute;
+}
+
+
+/*-----------------Experience Page-----------------*/
+.experience {
+  display: grid;
+  gap: 20px;
+  padding: 1em;
+  
+  article {
+    background-color: #f5f5f5;
+  }
+}
+
+/*-----------------Contact Page-----------------*/
+.contact {
+
 }
 
 /*-----------------Footer-----------------*/
