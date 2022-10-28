@@ -12,27 +12,31 @@
 }
 
 /*-----------------Navigation & Header-----------------*/
-nav {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  background-color: #665dab;
-  width: 100%;
+header {
+  position: relative;
+  z-index: 3;
 
-  ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;
+  nav {
+    position: fixed;
+    top: 0;
+    background-color: #665dab;
+    width: 100%;
 
-    li a {
-      color: white;
-      text-decoration: none;
-      font-size: 1.4rem;
-      font-weight: 400;
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      list-style: none;
 
-      &:hover {
-        text-decoration: underline;
+      li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-weight: 400;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
@@ -69,6 +73,7 @@ nav {
 .angle::after {
   background-color: #6ea67a;
   clip-path: polygon(100% 100%, 0 100%, 100% 0);
+
 }
 
 .angle, .angle::after {
@@ -79,6 +84,7 @@ nav {
 .angle::after {
   content: '';
   position: absolute;
+  z-index: 1;
   bottom: 0;
 }
 
@@ -91,9 +97,11 @@ main {
 
 /*-----------------Experience page-----------------*/
 .experience {
+  position: relative;
+  z-index: 2;
   height: 100vh;
   display: grid;
-  gap: 20px;
+  gap: 15px;
   padding: 1em;
   font-size: 1.1rem;
 
@@ -102,6 +110,7 @@ main {
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    height: 200px;
 
     h2 {
       text-align: center;

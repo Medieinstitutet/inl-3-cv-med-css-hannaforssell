@@ -1,0 +1,12 @@
+/*-----------------Experience page-----------------*/
+.experience {
+    grid-template-columns: repeat(auto-fill, 600px);
+    gap: 80px;
+    justify-content: center;
+    align-content: center;
+  
+    article {
+        height: 250px;
+        width: 550px;
+    }
+  }
