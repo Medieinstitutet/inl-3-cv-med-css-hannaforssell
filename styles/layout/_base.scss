@@ -3,7 +3,7 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-/*-----------------First page-----------------*/
+/*-----------------Home page-----------------*/
 .homepage {
   background-color: #f5f5f5;
   position: relative;
@@ -18,24 +18,24 @@ nav {
   top: 0;
   background-color: #665dab;
   width: 100%;
-  
-    ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      list-style: none;
-    
-      li a {
-        color: white;
-        text-decoration: none;
-        font-size: 1.4rem;
-        font-weight: 400;
 
-        &:hover {
-          text-decoration: underline;
-        }
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+
+    li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-weight: 400;
+
+      &:hover {
+        text-decoration: underline;
       }
     }
+  }
 }
 
 .intro {
@@ -95,12 +95,19 @@ main {
   display: grid;
   gap: 20px;
   padding: 1em;
-  font-size: 1rem;
-  
+  font-size: 1.1rem;
+
   article {
     background-color: #f5f5f5;
     border-radius: 10px;
-    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    h2 {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: -15px;
+    }
   }
 }
 
@@ -111,6 +118,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  // padding-top: 150px;
   justify-content: center;
 
   h3 {
@@ -346,9 +354,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -359,6 +367,7 @@ textarea {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -426,4 +435,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
