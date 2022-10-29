@@ -101,6 +101,8 @@ main {
   z-index: 2;
   height: 100vh;
   display: grid;
+  justify-content: center;
+  align-content: center;
   gap: 15px;
   padding: 1em;
   font-size: 1.1rem;
@@ -111,6 +113,7 @@ main {
     padding-left: 10px;
     padding-right: 10px;
     height: 200px;
+    width: 400px;
 
     h2 {
       text-align: center;

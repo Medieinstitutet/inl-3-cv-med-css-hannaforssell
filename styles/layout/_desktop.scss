@@ -1,12 +1,8 @@
 /*-----------------Experience page-----------------*/
 .experience {
-    grid-template-columns: repeat(auto-fill, 600px);
-    gap: 80px;
-    justify-content: center;
-    align-content: center;
+    background-color: red;
+    grid-template-columns: repeat(2, 500px);
   
     article {
-        height: 250px;
-        width: 550px;
     }
   }
