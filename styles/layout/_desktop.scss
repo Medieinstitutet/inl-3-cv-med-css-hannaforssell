@@ -1,8 +1,26 @@
-/*-----------------Experience page-----------------*/
-.experience {
-    background-color: red;
-    grid-template-columns: repeat(2, 500px);
+/*-----------------Navigation & Header-----------------*/
+.intro {
   
-    article {
+  h1 {
+    font-size: 3rem;
+
+    .intro-greeting {
+      font-size: 6rem;
     }
   }
+}
+
+/*-----------------Experience page-----------------*/
+.experience {
+  grid-template-columns: repeat(2, 450px);
+  gap: 100px;
+
+  article {
+    width: 450px;
+      
+    h2 {
+      margin-top: 5px;
+      margin-bottom: 0;
+    }
+  }
+}
