@@ -2,18 +2,14 @@
 
 @import 'layout/base';
 
-// @media screen and (min-width: 732px) {
-//     @import 'layout/tablet';
-// }
-
-// @media screen and (min-width: 1024px) {
-//     @import 'layout/desktop';
-// }
-
 @media screen and (min-width: 45em) {
-@import 'layout/tablet';
+    @import 'layout/tablet';
 }
     
 @media screen and (min-width: 64em) {
-@import 'layout/desktop';
+    @import 'layout/desktop';
+}
+
+@media screen and (max-width: 24em) {
+    @import 'layout/zoom';
 }
