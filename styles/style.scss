@@ -9,7 +9,3 @@
 @media screen and (min-width: 64em) {
     @import 'layout/desktop';
 }
-
-@media screen and (max-width: 24em) {
-    @import 'layout/zoom';
-}
