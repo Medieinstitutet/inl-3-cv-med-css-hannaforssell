@@ -7,7 +7,6 @@
 .homepage {
   background-color: #f5f5f5;
   position: relative;
-  height: 100vh;
   display: grid;
 }
 
@@ -104,7 +103,6 @@ main {
 .experience {
   position: relative;
   z-index: 2;
-  height: 100vh;
   display: grid;
   grid-template-columns: repeat(1, auto);
   justify-content: center;

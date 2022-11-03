@@ -1,5 +1,7 @@
 /*-----------------Navigation & Header-----------------*/
 .intro {
+  flex-direction: row;
+  justify-content: space-evenly;
   
   h1 {
     font-size: 3rem;
