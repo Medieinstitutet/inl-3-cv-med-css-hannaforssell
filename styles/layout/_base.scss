@@ -13,10 +13,10 @@
 /*-----------------Navigation & Header-----------------*/
 header {
   position: relative;
-  z-index: 3;
 
   nav {
     position: fixed;
+    z-index: 4;
     top: 0;
     background-color: #665dab;
     width: 100%;
@@ -47,6 +47,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 3;
 
   h1 {
     width: 300px;
@@ -55,11 +57,11 @@ header {
     font-weight: 400;
 
     .intro-greeting {
-      color: #e3569a;
+      color: #665dab;
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-size: 5rem;
       font-weight: 400;
-      text-shadow: 3px 3px 3px #665dab;
+      text-shadow: 3px 3px 3px black;
     }
 
     .intro-bold {
@@ -69,7 +71,6 @@ header {
 
   img {
     border-radius: 100%;
-    border: 5px ridge #665dab;
   }
 }
 
