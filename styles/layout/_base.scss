@@ -71,6 +71,8 @@ header {
   }
 
   img {
+    width: 200px;
+    height: auto;
     border-radius: 100%;
   }
 }
@@ -110,7 +112,7 @@ main {
   justify-content: center;
   align-content: center;
   gap: 15px;
-  padding: 1em;
+  padding-top: 70px;
   font-size: 1.1rem;
 
   article {
