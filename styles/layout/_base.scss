@@ -1,3 +1,7 @@
+$primary-color: #6ea67a;
+$secondary-color: #665dab;
+
+
 * {
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;
@@ -19,7 +23,7 @@ header {
     position: fixed;
     z-index: 4;
     top: 0;
-    background-color: #665dab;
+    background-color: $secondary-color;
     width: 100%;
 
     ul {
@@ -58,7 +62,7 @@ header {
     font-weight: 400;
 
     .intro-greeting {
-      color: #665dab;
+      color: $secondary-color;
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-size: 5rem;
       font-weight: 400;
@@ -79,7 +83,7 @@ header {
 
 /*-----------------The angle on the first page-----------------*/
 .angle::after {
-  background-color: #6ea67a;
+  background-color: $primary-color;
   clip-path: polygon(100% 100%, 0 100%, 100% 0);
 
 }
@@ -98,7 +102,7 @@ header {
 
 /*-----------------Experience & Contact-----------------*/
 main {
-  background-color: #6ea67a;
+  background-color: $primary-color;
   position: relative;
 }
 
@@ -161,7 +165,7 @@ main {
 /*-----------------Footer-----------------*/
 
 footer {
-  background-color: #665dab;
+  background-color: $secondary-color;
   color: white;
   text-align: center;
   position: absolute;
