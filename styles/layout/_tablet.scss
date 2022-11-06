@@ -1,0 +1,22 @@
+/*-----------------Navigation & Header-----------------*/
+.intro img {
+    width: 300px;
+    height: auto;
+}
+
+/*-----------------Experience page-----------------*/
+.experience {
+    font-size: 1.2rem;
+    grid-template-columns: repeat(2, 300px);
+
+    article {
+        width: 300px;
+    }
+}
+
+/*-----------------Contact page-----------------*/
+
+.contact {
+    flex-direction: row;
+    gap: 50px;
+}
